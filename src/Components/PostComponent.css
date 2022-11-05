@@ -1,0 +1,13 @@
+.postCard{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.postCard p{
+    font-weight: 600;
+}
+
+.postCard span{
+    font-weight: 400;
+}

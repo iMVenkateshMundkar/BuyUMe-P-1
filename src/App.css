@@ -1,0 +1,43 @@
+.app{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.postFilter{
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.postFilter > input{
+    height: 40px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.postFilter > button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+    margin: auto;
+    background-color: lightblue;
+}
+
+.postFilter > button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: lightblue;
+}
+
+.postContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
